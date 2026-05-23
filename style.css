@@ -1,0 +1,239 @@
+/*Resect*/
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Estilo Desktop*/
+
+body {
+
+    background-color: #0E1014;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+/*Header*/
+
+.destaque {
+
+    color: #9747FF;
+    display: block;
+}
+
+
+
+header {
+
+    text-align: center;
+   
+
+}
+
+
+.imagems-cabecalho {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    gap: 400px;
+}
+
+.logo {
+    align-items: baseline;
+
+}
+
+#imagem-logo {
+
+
+    max-width: 209.29px;
+    height: 34px;
+    
+}
+
+#imagem-sol {
+
+
+    max-width: 40px;
+    height: 40px;
+}
+
+/*Main*/
+
+.secao-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+
+
+
+}
+
+.texto-principal {
+    font-size: 64px;
+    font-family: "Unbounded", sans-serif;
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.descricao-servico {
+
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 792px;
+
+}
+
+.botao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #9747FF;
+    font-size: 17px;
+    border-radius: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 30px;
+    margin: 40px auto;
+
+}
+
+.botao:hover {
+
+    background-color: #8233E8;
+}
+
+.container_botao_img {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-principal {
+
+    margin-top: 30px;
+}
+
+/*Estilo Tablet*/
+
+@media(max-width:768px) {
+
+
+    header {
+
+        display: flex;
+
+
+    }
+
+
+
+    .imagems-cabecalho {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 40px;
+    width: 100%;
+    }
+
+   
+
+
+    .texto-principal {
+
+        text-align: center;
+    }
+
+    .descricao-servico {
+
+        width: 648px;
+    }
+
+    .botao {
+
+        width: 340px;
+        height: 66px;
+    }
+
+   
+
+}
+
+@media(max-width:375px){
+   
+  header {
+        display: block;
+    }
+
+    .imagems-cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+        margin-top: 30px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    #imagem-logo {
+        max-width: 170px;
+        height: auto;
+    }
+
+    #imagem-sol {
+        width: 36px;
+        height: 36px;
+    }
+
+    .secao-principal {
+        width: 100%;
+        text-align: center;
+        padding: 30px 16px;
+    
+    }
+
+    .texto-principal {
+        font-size: 40px;
+        line-height: 1.1;
+        text-align: center;
+        width: 100%;
+        max-width: 340px;
+        margin-top: 40px;
+    }
+
+    .descricao-servico {
+        font-size: 20px;
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .botao {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        text-align: center;
+    }
+
+    .imagem-principal {
+        width: 100%;
+        max-width: 341px;
+        height: auto;
+    }
+}
+    
